@@ -235,11 +235,11 @@
                                 </div>
                                 <div class="pure-u-1-2">
                                     <p>YOUR CLICKS: </p>
-                                    <p>200</p>
+                                    <p class="pclicks">500</p>
                                 </div>
                                 <div class="pure-u-1-2">
                                     <p>YOUR DONATION: </p>
-                                    <p>$20</p>
+                                    <p>$<span class="pdon">42</span></p>
                                 </div>
 
                             </div>
@@ -247,7 +247,7 @@
                             <div class="pure-g">
                                 <div class="pure-u-1-2">
                                     <p></p>
-                                    <button class="pure-button pure-button-input">CLICK</button>
+                                    <button class="pure-button pure-button-input" onclick = "increaseClicks()">CLICK</button>
                                 </div>
                             </div>
 
@@ -273,11 +273,11 @@
                                 </div>
                                 <div class="pure-u-1-2">
                                     <p>YOUR CLICKS: </p>
-                                    <p>200</p>
+                                    <p class="pclicks">500</p>
                                 </div>
                                 <div class="pure-u-1-2">
                                     <p>YOUR DONATION: </p>
-                                    <p>$20</p>
+                                    <p>$<span class="pdon">42</span></p>
                                 </div>
 
                             </div>
@@ -295,30 +295,30 @@
                                 <tbody>
                                     <tr>
                                         <td>Magic</td>
-                                        <td>Increases click input by 100</td>
-                                        <td>300</td>
-                                        <td><button class="pure-button">Buy</button></td>
+                                        <td>Increases your click-count by 100</td>
+                                        <td id="cost1">300</td>
+                                        <td><button id="but1" class="pure-button">Buy</button></td>
                                     </tr>
 
                                     <tr>
                                         <td>Professional Designer</td>
                                         <td>Creates beautiful print ad, generated $1000 more per second.</td>
-                                        <td>900</td>
-                                        <td><button class="pure-button">Buy</button></td>
+                                        <td id="cost2">900</td>
+                                        <td><button id="but2" class="pure-button">Buy</button></td>
                                     </tr>
 
                                     <tr>
                                         <td>Endorsement by Jay-Z</td>
                                         <td>Capture the mind of young teens everywhere</td>
-                                        <td>44,000,000</td>
-                                        <td><button class="pure-button pure-button-disabled">Buy</button></td>
+                                        <td id="cost3">44,000,000</td>
+                                        <td><button id="but3" class="pure-button pure-button-disabled">Buy</button></td>
                                     </tr>
 
                                     <tr>
                                         <td>Create emotional ad</td>
                                         <td>Money weeps into your pocket</td>
-                                        <td>99,000,000</td>
-                                        <td><button class="pure-button pure-button-disabled">Buy</button></td>
+                                        <td id="cost4">99,000,000</td>
+                                        <td><button id="but4" class="pure-button pure-button-disabled">Buy</button></td>
                                     </tr>
 
                                 </tbody>
