@@ -22,13 +22,12 @@ function hideStuff(n){
 }
 
 function updatePurchasable(){//Are we going to base purchasing upgrades on click-count or on $$$ donated?
-	var x = parseInt($('#pclicks').text());
 	console.log(x);
 	for(var i = 1; i <= numPurchases; i++){
 		//based purely on click count
 		var cost = parseInt($('#cost' + i).text().split(",").join(""));
 		console.log(i + ":" + cost);
-		if(x >= cost)
+		if(yourClicks >= cost)
 			$('#but' + i).removeClass().addClass("pure-button");
 		else
 			$('#but' + i).removeClass().addClass("pure-button pure-button-disabled");
