@@ -1,4 +1,4 @@
-massive-octo-computing-machine
-==============================
+Click-Game
+==========
 
-The Massive Octo Computing Machine (cookie clicker remake)
+for One &amp; Together
